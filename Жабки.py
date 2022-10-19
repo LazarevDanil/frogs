@@ -20,7 +20,7 @@ img2=PhotoImage(file='frog-2.gif')
 def swap(event):
     nowx = (event.x-margin)//size
     nowy = (event.y-margin)//size
-    print(nowx,nowy)
+    
     #-Отсеиваем нажатия за пределы игрового поля
     if nowx<0 or nowx>6 or nowy!= 0:
         pass
