@@ -8,7 +8,7 @@ from tkinter.messagebox import *
 
 #-Окно и поле-
 root = Tk()
-root.title('Девятьнашки')
+root.title('Frogs')
 canvas = Canvas(root,width=size*7+margin*2,height=size+margin*2,bg='#409945')
 canvas.pack()
 
